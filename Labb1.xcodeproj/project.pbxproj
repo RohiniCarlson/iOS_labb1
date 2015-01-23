@@ -14,8 +14,9 @@
 		4419B4011A6D912D00AA21B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4419B4001A6D912D00AA21B2 /* Images.xcassets */; };
 		4419B4041A6D912D00AA21B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4419B4021A6D912D00AA21B2 /* LaunchScreen.xib */; };
 		4419B4101A6D912D00AA21B2 /* Labb1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4419B40F1A6D912D00AA21B2 /* Labb1Tests.m */; };
-		4459609E1A719D8000EB343F /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4459609D1A719D8000EB343F /* me.jpg */; };
-		445960A01A71AFE600EB343F /* ariel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4459609F1A71AFE600EB343F /* ariel.jpg */; };
+		445960A81A72325D00EB343F /* me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 445960A71A72325D00EB343F /* me.jpg */; };
+		445960AC1A7236EF00EB343F /* cake1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 445960AB1A7236EF00EB343F /* cake1.jpg */; };
+		445960AE1A72371500EB343F /* cake2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 445960AD1A72371500EB343F /* cake2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +43,9 @@
 		4419B4091A6D912D00AA21B2 /* Labb1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Labb1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4419B40E1A6D912D00AA21B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4419B40F1A6D912D00AA21B2 /* Labb1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Labb1Tests.m; sourceTree = "<group>"; };
-		4459609D1A719D8000EB343F /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = me.jpg; path = Images.xcassets/me.jpg; sourceTree = "<group>"; };
-		4459609F1A71AFE600EB343F /* ariel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ariel.jpg; path = ../../../../ITGK/Project/Working/images/kids/normal/ariel.jpg; sourceTree = "<group>"; };
+		445960A71A72325D00EB343F /* me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = me.jpg; sourceTree = "<group>"; };
+		445960AB1A7236EF00EB343F /* cake1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cake1.jpg; sourceTree = "<group>"; };
+		445960AD1A72371500EB343F /* cake2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cake2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +93,9 @@
 				4419B3FB1A6D912D00AA21B2 /* ViewController.m */,
 				4419B3FD1A6D912D00AA21B2 /* Main.storyboard */,
 				4419B4001A6D912D00AA21B2 /* Images.xcassets */,
-				4459609F1A71AFE600EB343F /* ariel.jpg */,
-				4459609D1A719D8000EB343F /* me.jpg */,
+				445960AD1A72371500EB343F /* cake2.jpg */,
+				445960AB1A7236EF00EB343F /* cake1.jpg */,
+				445960A71A72325D00EB343F /* me.jpg */,
 				4419B4021A6D912D00AA21B2 /* LaunchScreen.xib */,
 				4419B3F31A6D912D00AA21B2 /* Supporting Files */,
 			);
@@ -205,11 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445960A01A71AFE600EB343F /* ariel.jpg in Resources */,
 				4419B3FF1A6D912D00AA21B2 /* Main.storyboard in Resources */,
 				4419B4041A6D912D00AA21B2 /* LaunchScreen.xib in Resources */,
 				4419B4011A6D912D00AA21B2 /* Images.xcassets in Resources */,
-				4459609E1A719D8000EB343F /* me.jpg in Resources */,
+				445960AC1A7236EF00EB343F /* cake1.jpg in Resources */,
+				445960A81A72325D00EB343F /* me.jpg in Resources */,
+				445960AE1A72371500EB343F /* cake2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Labb1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Labb1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

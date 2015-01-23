@@ -203,19 +203,20 @@ to learn more about me.</string>
                                 <color key="textColor" red="0.80000000000000004" green="0.0" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Here are some pictures of cakes I have made for my children. Enjoy!" translatesAutoresizingMaskIntoConstraints="NO" id="i4Q-hZ-KI9">
-                                <rect key="frame" x="14" y="167" width="279" height="56"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Here are the pictures of the birthday cakes I made for my children last year. Enjoy!" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4Q-hZ-KI9">
+                                <rect key="frame" x="10" y="160" width="279" height="62"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.65882354970000001" green="0.078431375319999996" blue="0.75686281919999998" alpha="0.98999999999999999" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ariel.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mOH-58-TgY">
-                                <rect key="frame" x="50" y="216" width="220" height="220"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cake1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mOH-58-TgY">
+                                <rect key="frame" x="10" y="234" width="299" height="220"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lde-be-BGX">
-                                <rect key="frame" x="31" y="437" width="46" height="30"/>
-                                <state key="normal" title="Next">
+                                <rect key="frame" x="10" y="450" width="63" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Next >>">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -223,8 +224,9 @@ to learn more about me.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0kD-qc-u0u">
-                                <rect key="frame" x="219" y="437" width="60" height="30"/>
-                                <state key="normal" title="Previous">
+                                <rect key="frame" x="215" y="450" width="96" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="&lt;&lt; Previous">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -257,7 +259,7 @@ to learn more about me.</string>
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Ha5-0E-jDq">
+                            <textView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ha5-0E-jDq">
                                 <rect key="frame" x="0.0" y="8" width="320" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">I was born in Sri Lanka and grew up there. I completed my studies with a Bsc in Information Technology. I worked for a while in Sri Lanka as a Software Engineer and as a Project Manager, before moving to the USA to do my Masters in Computer Science.
@@ -266,17 +268,17 @@ to learn more about me.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="By then I had met my husband Jonas who is Swedish. So once I had completed my Masters I moved to Sweden." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="eQ5-tV-i6j">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="By then I had met my husband Jonas who is Swedish. So once I had completed my Masters I moved to Sweden." textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQ5-tV-i6j">
                                 <rect key="frame" x="0.0" y="193" width="320" height="79"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.65882354970000001" green="0.078431375319999996" blue="0.75686281919999998" alpha="0.98999999999999999" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="qiz-rX-1Qr">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiz-rX-1Qr">
                                 <rect key="frame" x="0.0" y="262" width="320" height="79"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">In Sweden, I got married and worked for a while as a Software Engineer at IFS AB. Then we had children and I have been a stay-at-home-mom for the past 8 years.</string>
+                                <string key="text">We got married and I worked for a while as a Software Engineer at IFS AB. I left my job to be at home with our children and I have been a stay-at-home-mom for the past 8 years.</string>
                                 <color key="textColor" red="0.65882354970000001" green="0.078431375319999996" blue="0.75686281919999998" alpha="0.98999999999999999" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -287,10 +289,9 @@ to learn more about me.</string>
                                 <color key="textColor" red="0.80000000000000004" green="0.0" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="7gV-4n-tCi">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="I am taking this course to remember all that I have forgotten, learn something new and hopefully find a job at the end of it. " textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gV-4n-tCi">
                                 <rect key="frame" x="0.0" y="349" width="320" height="79"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">So, I am taking this course to remember all that I have forgotten, learn something new and hopefully find a job at the end of it. </string>
                                 <color key="textColor" red="0.65882354970000001" green="0.078431375319999996" blue="0.75686281919999998" alpha="0.98999999999999999" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -324,7 +325,7 @@ to learn more about me.</string>
         </scene>
     </scenes>
     <resources>
-        <image name="ariel.jpg" width="479" height="400"/>
+        <image name="cake1.jpg" width="1124" height="938"/>
         <image name="me.jpg" width="160" height="160"/>
     </resources>
     <color key="tintColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>

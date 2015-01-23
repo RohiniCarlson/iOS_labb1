@@ -19,14 +19,14 @@
 @implementation ViewController
 
 - (IBAction)showNextImage:(id)sender {
-    self.cakeImage.image = [UIImage imageNamed:@"me.jpg"];
+    self.cakeImage.image = [UIImage imageNamed:@"cake2.jpg"];
     self.previousButton.enabled = YES;
     self.nextButton.enabled = NO;
 }
 
 
 - (IBAction)showPreviousImage:(id)sender {
-    self.cakeImage.image = [UIImage imageNamed:@"ariel.jpg"];
+    self.cakeImage.image = [UIImage imageNamed:@"cake1.jpg"];
     self.previousButton.enabled = NO;
     self.nextButton.enabled = YES;
 }
